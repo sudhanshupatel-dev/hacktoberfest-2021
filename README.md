@@ -3,10 +3,10 @@
 Make your first Pull Request and earn a free tee from GitHub!
 
 <p align="center">
-   <img alt="GitHub issues" src="https://img.shields.io/github/issues/kizule/hacktoberfest-2020"></a>
-   <img alt="GitHub forks" src="https://img.shields.io/github/forks/kizule/hacktoberfest-2020"></a>
-   <img alt="GitHub stars" src="https://img.shields.io/github/stars/kizule/hacktoberfest-2020"></a>
-   <img alt="Github license" src="https://img.shields.io/github/license/Okizule/hacktoberfest-2020"></a>
+   <img alt="GitHub issues" src="https://img.shields.io/github/issues/kizule/hacktoberfest-2021"></a>
+   <img alt="GitHub forks" src="https://img.shields.io/github/forks/kizule/hacktoberfest-2021"></a>
+   <img alt="GitHub stars" src="https://img.shields.io/github/stars/kizule/hacktoberfest-2021"></a>
+   <img alt="Github license" src="https://img.shields.io/github/license/Okizule/hacktoberfest-2021"></a>
 </p>
 
 # Welcome to GitHub!
