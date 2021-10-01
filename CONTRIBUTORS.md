@@ -11,3 +11,5 @@
 [Nikita jain](https://github.com/nikita-jain-01)
 
 [Javlon](https://github.com/javlonrahimov)
+
+[Yash](https://github.com/Yash778899)
