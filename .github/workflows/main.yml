@@ -12,5 +12,6 @@ jobs:
       - uses: mshick/add-pr-comment@v1
         with:
           message: |
-            Hi! Thank you so much for creating pull request! @kizule will take care about this as soon as possible.\nGood luck in participating in Hacktoberfest! :)
+            Hi! Thank you so much for creating pull request! @kizule will take care about this as soon as possible.
+            Good luck in participating in Hacktoberfest! :)
           repo-token: ${{ secrets.GITHUB_TOKEN }}
