@@ -1,0 +1,17 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+on:
+  pull_request:
+
+jobs:
+  pr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: mshick/add-pr-comment@v1
+        with:
+          message: |
+            Hi! Thank you so much for creating pull request! @kizule will take care about this as soon as possible.
+            Good luck in participating in Hacktoberfest! :)
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
