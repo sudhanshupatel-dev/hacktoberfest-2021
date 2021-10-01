@@ -1,15 +1,15 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Hacktoberfest
 
 on:
   pull_request:
 
 jobs:
-  pr:
+  hacktoberfest-welcome-comment:
     runs-on: ubuntu-latest
     steps:
-      - uses: mshick/add-pr-comment@v1
+      - uses: github-actions-up-and-running/pr-comment@v1.0.1
         with:
           message: |
             Hi! Thank you so much for creating pull request! @kizule will take care about this as soon as possible.
