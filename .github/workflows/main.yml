@@ -12,7 +12,7 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         pr-message: |-
           Hi! Thank you very much for contribution in this repository, and congratulations on your
-          first contribution! @kizule will shortly review your contribution. 
+          first contribution! @kizule will shortly review your pull request. 
 
           Good luck in participating in the Hacktoberfest!
         pr-label:
