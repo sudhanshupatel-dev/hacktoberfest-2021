@@ -1,17 +1,19 @@
-# This is a basic workflow to help you get started with Actions
-
-name: Hacktoberfest
-
+name: "First Time Contributor"
 on:
-  pull_request:
+  schedule:
+  - cron: "*/5 * * * *"
 
 jobs:
-  hacktoberfest-welcome-comment:
+  triage:
     runs-on: ubuntu-latest
     steps:
-      - uses: github-actions-up-and-running/pr-comment@v1.0.1
-        with:
-          message: |
-            Hi! Thank you so much for creating pull request! @kizule will take care about this as soon as possible.
-            Good luck in participating in Hacktoberfest! :)
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+    - uses: fjeremic/cron-first-interaction@0.2.0
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        pr-message: |-
+          Hi! Thank you very much for contribution in this repository, and congratulations on your
+          first contribution! @kizule will shortly review your contribution. 
+
+          Good luck in participating in the Hacktoberfest!
+        pr-label:
+          - hacktoberfest-accepted
