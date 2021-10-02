@@ -1,53 +1,42 @@
-#include <iostream>
+// C++ program to implement recursive Binary Search
+#include <bits/stdc++.h>
 using namespace std;
 
-int binarySearch(int[], int, int, int);
-
-int main()
+// A recursive binary search function. It returns
+// location of x in given array arr[l..r] is present,
+// otherwise -1
+int binarySearch(int arr[], int l, int r, int x)
 {
-   int num[10] = {10, 22, 37, 55, 92, 118};
-   int search_num, loc=-1;
+	if (r >= l) {
+		int mid = l + (r - l) / 2;
 
-   cout<<"Enter the number that you want to search: ";
-   cin>>search_num;
+		// If the element is present at the middle
+		// itself
+		if (arr[mid] == x)
+			return mid;
 
-   loc = binarySearch(num, 0, 6, search_num);
+		// If element is smaller than mid, then
+		// it can only be present in left subarray
+		if (arr[mid] > x)
+			return binarySearch(arr, l, mid - 1, x);
 
-   if(loc != -1)
-   {
-      cout<<search_num<<" found in the array at the location: "<<loc;
-   }
-   else
-   {
-      cout<<"Element not found";
-   }
-   return 0;
+		// Else the element can only be present
+		// in right subarray
+		return binarySearch(arr, mid + 1, r, x);
+	}
+
+	// We reach here when element is not
+	// present in array
+	return -1;
 }
 
-int binarySearch(int a[], int first, int last, int search_num)
+int main(void)
 {
-   int middle;
-   if(last >= first)
-   {
-      middle = (first + last)/2;
-      //Checking if the element is present at middle loc
-      if(a[middle] == search_num)
-      {
-         return middle+1;
-      }
-
-      //Checking if the search element is present in greater half
-      else if(a[middle] < search_num)
-      {
-         return binarySearch(a,middle+1,last,search_num);
-      }
-
-      //Checking if the search element is present in lower half
-      else
-      {
-         return binarySearch(a,first,middle-1,search_num);
-      }
-
-   }
-   return -1;
+	int arr[] = { 2, 3, 4, 10, 40 };
+	int x = 10;
+	int n = sizeof(arr) / sizeof(arr[0]);
+	int result = binarySearch(arr, 0, n - 1, x);
+	(result == -1) ? cout << "Element is not present in array"
+				: cout << "Element is present at index " << result;
+	return 0;
 }
