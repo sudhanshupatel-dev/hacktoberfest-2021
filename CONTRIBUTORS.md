@@ -12,4 +12,6 @@
 
 [Javlon](https://github.com/javlonrahimov)
 
+[aqc1](https://github.com/aqc1)
+
 [Yash](https://github.com/Yash778899)
