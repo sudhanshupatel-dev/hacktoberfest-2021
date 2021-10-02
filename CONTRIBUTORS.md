@@ -1,5 +1,7 @@
 # Contributors
 
+[Mobolaji Olaawlae](https://github.com/bolajixi)
+
 [RealKelvinPerez](https://github.com/realkelvinperez)
 
 [shakthilahiru](https://github.com/shakthilahiru)
@@ -25,4 +27,3 @@
 [Joel](https://github.com/JoelC-02)
 
 [Rajdeep](https://github.com/RajdeepDs)
-
