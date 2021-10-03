@@ -39,3 +39,5 @@
 [Nacho Soria](https://github.com/nsoria042)
 
 [Shreya Shankar](https://github.com/shreya-jpg)
+
+[Suryansh Chopra](https://github.com/SuryanshChopra)
