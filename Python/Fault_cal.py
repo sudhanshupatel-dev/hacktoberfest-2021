@@ -19,7 +19,10 @@ while(True):
         elif (operator == "*"):
             print("Result:", var1 * var2)
         elif (operator == "/"):
-            print("Result:", var1 / var2)
+            if var == 0:
+                print("Result: UNDEFINED")
+            else:
+                print("Result:", var1 / var2)
         elif (operator=="**"):
             print("Result:", var1 ** var2)
         elif(operator=="%"):
