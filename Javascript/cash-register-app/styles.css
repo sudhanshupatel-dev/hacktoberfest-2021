@@ -1,0 +1,46 @@
+body {
+    background-color: #efefef;
+    font-family: "Lato", sans-serif;
+}
+
+section {
+    padding: 5rem;
+    margin: auto;  
+}
+
+input {
+    padding: 0.5rem;
+    width: 50%;
+
+}
+
+#check {
+    cursor: pointer;
+    background: #E5E7EB;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    margin: 1rem 0.3rem;
+        
+}
+#output{
+    margin: 1rem 0;    
+}
+zz
+#output table, th, td {
+    padding: 0.2rem;
+    background-color: #D1D5DB ;
+    border: 2px solid #9CA3AF ;
+    border-collapse: collapse;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+}
+
+th,td{
+    word-wrap: break-word;
+}
+
