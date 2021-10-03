@@ -35,3 +35,5 @@
 [Arvind Beri](https://github.com/arvindberi)
 
 [Alif Arrizqy](https://github.com/alif-arrizqy)
+
+[Nacho Soria](https://github.com/nsoria042)
